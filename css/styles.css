@@ -1,0 +1,83 @@
+.cuad1-rel {
+	width: 160px;
+	height: 160px;
+	background-color: salmon;
+	position: relative;
+	display: inline-block;	
+}
+
+.cuad1-abs {
+	width: 80px;
+	height: 80px;
+	background-color: firebrick;
+	position: relative;
+	top: 40px;
+	left: 40px;
+	
+}
+
+.cuad2-rel {	
+	width: 160px;
+	height: 160px;
+	background-color: salmon;
+	right: 0px;
+	position: absolute; 
+	display: inline-block;
+	}
+
+.cuad2-abs {	
+	width: 80px;
+	height: 80px;
+	background-color: firebrick;
+	position: relative;
+	top: 40px;
+	left: 40px;
+}
+
+
+
+.cuad3-rel {
+	width: 550px;
+	height: 250px;
+	background-color: lightsalmon;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.cuad3-abs-izq {	
+	width: 80px;
+	height: 80px;
+	background-color: tomato;
+	position: absolute;
+	top: 0;
+	left: 0;}
+
+.cuad3-abs-der {
+	width: 80px;
+	height: 120px;
+	background-color: orangered;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	}
+
+.fix {
+	width: 200px;
+	height: 200px;
+	background-color: salmon;
+	position: fixed;
+	bottom: 0;
+}
+
+
+
+
+.abs-der {
+	width: 200px;
+	height: 100px;
+	background-color: salmon;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
